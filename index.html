@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Morpion - Puissance 4</title>
+</head>
+
+<body>
+    <main>
+        <div id="choice">
+            <h3>Veuillez choisir le jeu : </h3>
+            <button id="morpion">Morpion</button>
+            <button id="p4">Puissance 4</button>
+        </div>
+        <div class="container">
+            <h1>MORPION</h1>
+            <div class="buttons">
+                <button id="vsComputer" onclick="startVsComputer()">Jouer contre l'ordinateur</button>
+                <button id="vsPlayer" onclick="startVsPlayer()">Jouer en mode joueur vs joueur</button>
+            </div>
+            <div id="board"></div>
+            <p id="msg">test</p>
+            <button id="replay" onclick="resetGame()">Rejouer</button>
+        </div>
+        <div class="containerP4">
+            <h1>PUISSANCE 4</h1>
+            <div class="buttons">
+                <button id="vsComputer" onclick="startVsComputerP4()">Jouer contre l'ordinateur</button>
+                <button id="vsPlayer" onclick="startVsPlayerP4()">Jouer en mode joueur vs joueur</button>
+            </div>
+            <div id="boardP4"></div>
+            <p id="msgP4">test</p>
+            <button id="replayP4" onclick="resetGameP4()">Rejouer</button>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
